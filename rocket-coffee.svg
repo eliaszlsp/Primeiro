@@ -1,0 +1,88 @@
+<svg width="799" height="449" viewBox="0 0 799 449" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_f_326_88)">
+<ellipse cx="268.593" cy="357.364" rx="68" ry="36" transform="rotate(-6.4074 268.593 357.364)" fill="black"/>
+</g>
+<g opacity="0.5" filter="url(#filter1_f_326_88)">
+<ellipse cx="615.275" cy="393.735" rx="102.954" ry="52.0909" transform="rotate(-104.543 615.275 393.735)" fill="black"/>
+</g>
+<rect x="154" width="490" height="506" fill="url(#pattern0)"/>
+<g opacity="0.8" filter="url(#filter2_f_326_88)">
+<ellipse cx="73.6189" cy="321.899" rx="7.55512" ry="2.26654" transform="rotate(-148.294 73.6189 321.899)" fill="black"/>
+</g>
+<g opacity="0.8" filter="url(#filter3_f_326_88)">
+<ellipse cx="75.6576" cy="263.795" rx="7.55512" ry="2.26654" transform="rotate(-149.424 75.6576 263.795)" fill="black"/>
+</g>
+<g opacity="0.8" filter="url(#filter4_f_326_88)">
+<ellipse cx="100.886" cy="367.488" rx="7.55512" ry="2.26654" transform="rotate(-162.023 100.886 367.488)" fill="black"/>
+</g>
+<mask id="mask0_326_88" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="51" y="214" width="75" height="159">
+<path d="M61.5806 332.97L107.342 372.033L125.98 339.259L104.781 325.574L84.4851 285.172L88.6919 274.996L106.06 237.857L61.3742 214.199L72.2332 276.744L51.0509 304.219L61.5806 332.97Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_326_88)">
+<rect width="178.301" height="147.325" transform="matrix(-0.343667 0.939091 0.939091 0.343667 10.241 204.532)" fill="url(#pattern1)"/>
+</g>
+<g opacity="0.6" filter="url(#filter5_f_326_88)">
+<ellipse rx="7.55512" ry="2.26654" transform="matrix(-0.9998 -0.0199914 -0.0199914 0.9998 667.599 231.417)" fill="black"/>
+</g>
+<g opacity="0.6" filter="url(#filter6_f_326_88)">
+<ellipse rx="7.55512" ry="2.26654" transform="matrix(0.664008 -0.747725 -0.747725 -0.664008 718.711 194.154)" fill="black"/>
+</g>
+<g opacity="0.6" filter="url(#filter7_f_326_88)">
+<ellipse rx="7.55512" ry="2.26654" transform="matrix(0.90239 -0.430921 -0.430921 -0.90239 690.794 287.301)" fill="black"/>
+</g>
+<mask id="mask1_326_88" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="638" y="133" width="100" height="159">
+<path d="M716.81 133.455L737.635 191.642L700.25 289.575L673.475 291.148L661.988 250.198L644.354 233.449L638.057 203.546L716.81 133.455Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1_326_88)">
+<rect x="547.816" y="143.028" width="178.301" height="147.325" transform="rotate(5.90483 547.816 143.028)" fill="url(#pattern2)"/>
+</g>
+<defs>
+<filter id="filter0_f_326_88" x="80.896" y="200.785" width="375.393" height="313.157" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<filter id="filter1_f_326_88" x="438.599" y="173.214" width="353.35" height="441.042" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_326_88" transform="translate(0 0.113636) scale(0.00204082 0.00197628)"/>
+</pattern>
+<filter id="filter2_f_326_88" x="49.0808" y="299.484" width="49.0762" height="44.8303" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="9" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<filter id="filter3_f_326_88" x="51.0505" y="241.483" width="49.2141" height="44.6223" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="9" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<filter id="filter4_f_326_88" x="75.665" y="346.312" width="50.4417" height="42.3514" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="9" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_326_88" transform="translate(-0.000391351) scale(0.000625489 0.000757002)"/>
+</pattern>
+<filter id="filter5_f_326_88" x="645.045" y="214.146" width="45.1074" height="34.5424" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7.5" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<filter id="filter6_f_326_88" x="698.415" y="173.307" width="40.5933" height="41.6953" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7.5" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<filter id="filter7_f_326_88" x="668.906" y="268.456" width="43.7761" height="37.6907" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7.5" result="effect1_foregroundBlur_326_88"/>
+</filter>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_326_88" transform="translate(-0.000391351) scale(0.000625489 0.000757002)"/>
+</pattern>

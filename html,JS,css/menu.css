@@ -1,0 +1,87 @@
+:root {
+  --background: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+  font-size: 16px; /* this is the base font size */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+main {
+  display: none;
+}
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-color: var(--background);
+  background-position: var(--button);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.menu-mobile1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 27.0625rem;
+  height: 3.65625rem;
+  margin-top: 37px;
+}
+.menu1 {
+  display: flex;
+  z-index: 10;
+}
+.menu-mobile1 #logo-mobile {
+  width: 10.6875rem;
+  height: 2.046875rem;
+}
+#button-menu-mobile {
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 8px;
+  margin-bottom: 10px;
+}
+
+.menu1 a {
+  color: var(--border-menu-mobile);
+  border-bottom: 1px solid var(--border-menu-mobile);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 18px auto 14px 0px;
+  text-decoration: none;
+  display: flex;
+  padding: 5px 0px 14px 31px;
+}
+
+.menu1 a:nth-child(2) {
+  border-top: 0.063rem solid var(--border-menu-mobile);
+}
+
+.menu1 a:hover {
+  border-left: 3px solid var(--button);
+  transition: 1ms ease-in-out;
+  color: white;
+  font-style: bold;
+}
+
+.menu img {
+  display: none;
+  margin-right: 8.7675rem;
+}
+.menu button {
+  display: none;
+}

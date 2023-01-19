@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --background: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+  font-size: 16px; /* this is the base font size */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1068px) {
+  body {
+    background: url(../blur-1.png), url(../blur-2.png), var(--background);
+    display: flex;
+    justify-content: center;
+    background-position: bottom left, top right;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* mobile   */
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* mobile   */
+  .menu-mobile {
+    display: none;
+  }
+  /* mobile   */
+  .text-center {
+    display: none;
+  }
+  /* mobile   */
+  #button-mobile {
+    display: none;
+  }
+  /* mobile   */
+  #imgcoffe-mobile {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.028rem;
+    color: var(--text-color);
+    margin-top: 3.125rem;
+    width: 960px;
+    height: 50px;
+    margin-left: 100px;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+
+  nav a:hover {
+    border-left: 2px solid var(--button);
+    transition: 1ms ease-in-out;
+  }
+
+  #button {
+    margin-left: 8.1625rem; /* 130.65px / 16px = 8.1625rem */
+    background-color: Transparent;
+    width: 10.75rem; /* 172px / 16px = 10.75rem */
+    height: 2.3125rem; /* 37px / 16px = 2.3125rem */
+    font-family: "Manrope", sans-serif;
+
+    font-weight: 800;
+    font-size: 0.6875rem; /* 11px / 16px = 0.6875rem */
+    line-height: 0.9375rem; /* 15px / 16px = 0.9375rem */
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    border: 1px solid #8257e5;
+    border-radius: 0.375rem; /* 6px / 16px = 0.375rem */
+    cursor: pointer;
+  }
+
+  #button:hover {
+    background-color: var(--button);
+  }
+
+  nav img {
+    margin-right: 8.7675rem;
+  }
+
+  .Coffeetext {
+    color: var(--text-color);
+    width: 34.25rem; /* 548px / 16px = 34.25rem */
+    height: 12.75rem; /* 204px / 16px = 12.75rem */
+    font-family: "Manrope";
+
+    font-weight: 700;
+    font-size: 5rem; /* 80px / 16px = 5rem */
+
+    letter-spacing: -0.03em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .Coffeetext p:nth-child(1) {
+    width: 29.4375rem; /* 471px / 16px = 29.4375rem */
+    height: 6.8125rem; /* 109px / 16px = 6.8125rem */
+    font-family: "Manrope";
+
+    font-weight: 700;
+    font-size: 5rem; /* 80px / 16px = 5rem */
+
+    color: #ffffff;
+    text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  }
+
+  #great {
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 109px;
+
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button),
+      -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    color: var(--background);
+
+    animation: aumentar-sombra 15s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+  }
+
+  @keyframes aumentar-sombra {
+    0% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    1% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    4% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    7% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    8% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    12% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    22% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    23% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px #aaff99,
+        0 0 15px var(--button), 0 0 20px var(--button), 0 0 30px var(--button),
+        0 0 40px var(--button);
+    }
+    26% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    28% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    34% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 15px var(--button), 0 0 20px var(--button), 0 0 30px var(--button),
+        0 0 40px var(--button);
+    }
+    36% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    42% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    55% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 15px var(--button), 0 0 20px var(--button), 0 0 30px var(--button),
+        0 0 40px var(--button);
+    }
+    60% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    63% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 15px var(--button), 0 0 20px var(--button), 0 0 30px var(--button),
+        0 0 40px var(--button);
+    }
+    67% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    72% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    73% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    76% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    78% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    84% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 15px var(--button), 0 0 20px var(--button), 0 0 30px var(--button),
+        0 0 40px var(--button);
+    }
+    86% {
+      color: var(--background);
+      text-shadow: 0 0 3px var(--background), 0 0 5px var(--background);
+    }
+    96% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 17px var(--button), 0 0 38px var(--button);
+    }
+    100% {
+      color: var(--button);
+      text-shadow: 0 0 5px var(--button), 0 0 10px var(--button),
+        0 0 15px var(--button), 0 0 20px var(--button), 0 0 30px var(--button),
+        0 0 40px var(--button);
+    }
+  }
+
+  #imgcoffe {
+    width: 80%;
+  }
+}
